@@ -32,8 +32,7 @@ const BookingSummary = () => {
 	const locale = SETTINGS.locale;
 	const [callingCode, setCallingCode] = useState('');
 	const classes = useStyles();
-	const values = useFormikContext().values;
-	const {services, servicesTotalCost, appointment, contacts, payment} = values;
+	const {services, servicesTotalCost, appointment, contacts, payment} = useFormikContext().values;
 	const {forAnother, anotherName, countryCode} = contacts;
 	const {contactBillingDetails, contactBillingHeaders} = T.bookingSummary;
 
