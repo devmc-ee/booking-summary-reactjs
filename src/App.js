@@ -41,8 +41,8 @@ function App() {
 			anotherName: 'Aleks'
 		},
 		payment: {
-			method: 'salon',
-			addInfo: ""
+			method: 'giftCard',
+			addInfo: "LTG10101"
 		},
 		comments: ''
 	};

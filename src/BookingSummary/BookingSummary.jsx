@@ -126,7 +126,8 @@ const BookingSummary = () => {
 							<ListItem className={classes.listItem}>
 								{key === 'paymentMethod'
 									? <ListItemText
-										primary={SETTINGS.payment.methods[payment.method].name[locale]}/>
+										primary={SETTINGS.payment.methods[payment.method].name[locale]
+										+ ` ${payment.addInfo}`}/>
 									: (key === 'telephone'
 										? <ListItemText
 											primary={(callingCode.length > 0 ? `(+${callingCode}) ` : '')

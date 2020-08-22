@@ -250,7 +250,8 @@ export const T = {
 			},
 			paymentMethod:{
 				en: "Payment method:"
-			}
+			},
+
 		}
 
 
