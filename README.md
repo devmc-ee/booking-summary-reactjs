@@ -1,5 +1,5 @@
 # BookingSummary component
-This React component is a part of the [booking form app](https://github.com/devmc-ee/devmcee-booking). It is 
+This React component is a part of the [booking form app](https://github.com/devmc-ee/devmcee-booking). It is the
 final step of the booking process where customer overviews his order, add some comments and submits the booking 
 request.
 
