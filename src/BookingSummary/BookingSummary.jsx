@@ -96,12 +96,12 @@ const BookingSummary = () => {
 							primary={moment(appointment.date).format('Do MMM, (dddd)') + ' ' + appointment.time}/>
 					</ListItem>
 
-					{('true' === forAnother)
+					{((true === forAnother) || ('true' === forAnother))
 					&& (<Typography className={classes.subbtitle} align="left" variant="subtitle2">
 						{T.bookingSummary.appointment.anotherName[locale]}
 					</Typography>)}
 
-					{('true' === forAnother)
+					{((true === forAnother) || ('true' === forAnother))
 					&& (<ListItem className={classes.listItem}>
 						<ListItemText
 							primary={anotherName}/>
